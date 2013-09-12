@@ -31,6 +31,8 @@ var begName = "Create New Layer" // endName
     v0.85
     
     Creates a new layer and sets it as the active layer when creating a new document.
+    https://github.com/mikechambers/CC-Utils/tree/master/photoshop/scripts/CreateNewLayer
+    
     
     Created by Mike Chambers
     mikechambers@gmail.com
