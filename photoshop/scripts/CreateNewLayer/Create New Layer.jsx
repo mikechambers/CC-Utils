@@ -28,6 +28,8 @@ var begName = "Create New Layer" // endName
 
 /*
     Create New Layer Event script for Photoshop CC
+    v0.85
+    
     Creates a new layer and sets it as the active layer when creating a new document.
     
     Created by Mike Chambers

@@ -29,6 +29,12 @@ the background layer.
 By default, the new layer is automatically named by Photoshop (usually "Layer 1"). If you would like the layer to
 have a specific name, you can set it in the NEW_LAYER_NAME variable in the script.
 
+
+##Release History
+
+* v0.85 (9.12.2013)
+    * Initial Release
+
 ## Support
 
 This script has been tested on Photoshop CC on Mac and Windows.
