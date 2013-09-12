@@ -1,5 +1,7 @@
-var begDesc = "Assign this to the new document event. Creates a new layer and sets it as active when creating a new document." // endDesc
+/*
+var begDesc = "Assign this to the "New Document" event. Creates a new layer and sets it as active when creating a new document." // endDesc
 var begName = "Create New Layer" // endName
+*/
 
 /*
     The MIT License (MIT)
