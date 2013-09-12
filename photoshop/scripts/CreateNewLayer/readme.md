@@ -13,27 +13,28 @@ http://www.mikechambers.com
     * __Windows 7__ : *C:\Program Files\Adobe\Adobe Photoshop CC (64 Bit)\Presets\Scripts\Event Scripts Only*
     * __Mac__ : */Applications/Adobe Photoshop CC/Presets/Scripts/Event Scripts Only*
         
-2. Open Scripts Event Manager in Photoshop (File > Scripts > Scripts Event Manager)
-3. Make sure that "Enabled Events to Run Scripts / Actions" is checked.
-4. For Photoshop Event, select "New Document".
-5. For Script, select "Create new Layer"
-6. Click "Add"
-7. Click "Done:
+2. Open Photoshop CC.
+3. Open Script Event Manager in Photoshop (File > Scripts > Script Event Manager).
+4. Make sure that "Enable Events to Run Scripts / Actions" is checked.
+5. For Photoshop Event, select "New Document".
+6. For Script, select "Create new Layer".
+7. Click "Add".
+8. Click "Done.
     
-Once installed and enabled, anytime you create a new document, the document will include an empty layer above
+Once installed and enabled, anytime a new document is created, the document will include an empty layer above
 the background layer.
     
 ##Customization
 
 By default, the new layer is automatically named by Photoshop (usually "Layer 1"). If you would like the layer to
-have a specific name, you can setting it in the NEW_LAYER_NAME variable in the script.
+have a specific name, you can set it in the NEW_LAYER_NAME variable in the script.
 
 ## Support
 
 This script has been tested on Photoshop CC on Mac and Windows.
 
 ##Issues
-If you run into any issues, or have any feature requests, you can report them at:
+If you run into any issues, or have any feature requests, you can log them at:
 https://github.com/mikechambers/CC-Utils/issues
 
 Please make sure to tag the issue with the "CreateNewLayer" label.
