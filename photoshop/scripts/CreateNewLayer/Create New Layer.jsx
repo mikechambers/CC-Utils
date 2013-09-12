@@ -1,3 +1,6 @@
+var begDesc = "Assign this to the new document event. Creates a new layer and sets it as active when creating a new document." // endDesc
+var begName = "Create New Layer" // endName
+
 /*
     The MIT License (MIT)
     
@@ -30,20 +33,26 @@
     http://www.mikechambers.com
 */
 
-var begDesc = "$$$/JavaScripts/CreateNewLayer/Description=Assign this to the new document event. Creates a new layer and sets it as active when creating a new document." // endDesc
-var begName = "$$$/JavaScripts/OpenAsLayer/MenuName=Create New Layer" // endName
-
 //Name of the new layer. By default, the script lets Photoshop name it (Usually "Layer 1").
 //If you want something different, set it here.
 var NEW_LAYER_NAME = "";
 
-try {
-    if (app.documents.length) {
-		var doc = activeDocument;
-		var layers = doc.artLayers;
-		var newLayer = layers.add(NEW_LAYER_NAME);
-        doc.activeLayer = newLayer;
-	}
-} catch (e) {
-
+var createNewLayer = function() {
+    try {
+        if (app.documents.length) {
+            var doc = activeDocument;
+            var layers = doc.artLayers;
+            var newLayer = layers.add();
+            
+            if(NEW_LAYER_NAME) {
+                newLayer.name = NEW_LAYER_NAME;
+            }
+            
+            doc.activeLayer = newLayer;
+        }
+    } catch (e) {
+    
+    }
 }
+
+createNewLayer();
