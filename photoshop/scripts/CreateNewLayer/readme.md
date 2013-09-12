@@ -11,7 +11,7 @@ http://www.mikechambers.com
 
 1. Copy Script into the "Event Scripts Only" folder for your Photoshop CC install
     * __Windows 7__ : *C:\Program Files\Adobe\Adobe Photoshop CC (64 Bit)\Presets\Scripts\Event Scripts Only*
-    * __Mac__ :
+    * __Mac__ : */Applications/Adobe Photoshop CC/Presets/Scripts/Event Scripts Only*
         
 2. Open Scripts Event Manager in Photoshop (File > Scripts > Scripts Event Manager)
 3. Make sure that "Enabled Events to Run Scripts / Actions" is checked.
