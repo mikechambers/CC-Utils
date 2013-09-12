@@ -1,5 +1,7 @@
 #Create New Layer Event script for Photoshop CC  
-Creates a new layer and sets it as the active layer when creating a new document.
+Creates a new layer and sets it as the active layer when creating a new document.   
+
+https://github.com/mikechambers/CC-Utils/tree/master/photoshop/scripts/CreateNewLayer
 
 Created by Mike Chambers  
 mikechambers@gmail.com  
