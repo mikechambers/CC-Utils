@@ -1,4 +1,4 @@
-#Create New Layer event script for Photoshop CC  
+# Create New Layer event script for Photoshop CC  
 Creates a new layer and sets it as the active layer when creating a new document.   
 
 https://github.com/mikechambers/CC-Utils/tree/master/photoshop/scripts/CreateNewLayer
@@ -7,7 +7,7 @@ Created by Mike Chambers
 mikechambers@gmail.com  
 http://www.mikechambers.com
 
-##Installation
+## Installation
 
 1. Copy Script into the "Event Scripts Only" folder for your Photoshop CC install
     * __Windows 7__ : *C:\Program Files\Adobe\Adobe Photoshop CC (64 Bit)\Presets\Scripts\Event Scripts Only*
@@ -24,13 +24,13 @@ http://www.mikechambers.com
 Once installed and enabled, anytime a new document is created, the document will include an empty layer above
 the background layer.
     
-##Customization
+## Customization
 
 By default, the new layer is automatically named by Photoshop (usually "Layer 1"). If you would like the layer to
 have a specific name, you can set it in the NEW_LAYER_NAME variable in the script.
 
 
-##Release History
+## Release History
 
 * v0.85 (9.12.2013)
     * Initial Release
@@ -39,14 +39,14 @@ have a specific name, you can set it in the NEW_LAYER_NAME variable in the scrip
 
 This script has been tested on Photoshop CC on Mac and Windows.
 
-##Issues
+## Issues
 If you run into any issues, or have any feature requests, you can log them at:
 https://github.com/mikechambers/CC-Utils/issues
 
 Please make sure to tag the issue with the "CreateNewLayer" label.
 
 
-##License
+## License
 
 The MIT License (MIT)
 
